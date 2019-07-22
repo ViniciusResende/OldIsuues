@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>calculadora</title>
+</head>
+<body>
+<script type="text/javascript">
+var operacao = prompt('Para multiplicar dois valores digite: 1, para dividir digite: 2, para somar digite 3, para subtrair digite 4.');
+var a = prompt('digite o primeiro valor a ser multiplicado, dividido, somado ou subtraido.');
+var b = prompt('digite o segundo valor a ser multiplicado, dividido, somado ou subtraido.');
+var m = a * b;
+var d = a / b;
+var soma = parseInt(a) + parseInt(b);
+var sub = a - b;
+if(operacao == 1){
+	alert('O valor da multiplicação é: ' +m);
+	} 
+if(operacao == 2){
+	alert('O valor da divisão é: ' +d);
+}
+if(operacao == 3){
+	alert('o valor da soma é: ' +soma);
+}
+if(operacao == 4){
+	alert('o valor da subtração é: ' +sub);
+}
+</script>
+
+</body>
+</html>
